@@ -25,6 +25,7 @@ h1{
 }
 h1{
     margin: 60px 0;
+    text-align: center;
 }
 ul {
   list-style-type: none;
@@ -49,6 +50,10 @@ nav{
 #nav-menu-top > ul > li> a {
     text-decoration: none; 
 }
+#nav-menu-top > ul > li {
+    margin: 0 10px;
+}
+
 p{
     font-family:var(--display-font) ;
 }
@@ -62,6 +67,7 @@ p{
 
 .div-history-event-header{
     background-color: var(--primary-color);
+    text-align: center;
 }
 .div-history-event-header h2{
     margin-top: 0;
